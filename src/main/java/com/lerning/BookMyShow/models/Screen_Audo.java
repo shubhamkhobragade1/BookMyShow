@@ -13,7 +13,7 @@ import java.util.List;
 public class Screen_Audo extends BaseModel{
 
     private String name;
-    @OneToMany
+    @OneToMany(mappedBy ="screenAudo")
     private List<Seat> seatsList;
 
     @Enumerated(EnumType.ORDINAL)

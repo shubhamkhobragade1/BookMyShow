@@ -5,7 +5,7 @@ import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity(name = "seat_types")
 @Getter
 @Setter
 public class SeatType extends BaseModel {

@@ -16,4 +16,6 @@ public class ShowSeat extends BaseModel{
     @ManyToOne
     private Seat seat;
     private ShowSeatStatus showSeatStatus;
+
+
 }

@@ -10,7 +10,7 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
+@Entity(name="Shows")
 public class Show extends BaseModel{
     // s:m 1:1  m:1
 
